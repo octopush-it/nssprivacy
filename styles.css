@@ -188,6 +188,44 @@ h3 {
   color: var(--text);
 }
 
+.app-store-button {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  min-height: 54px;
+  padding: 9px 16px 10px;
+  border: 1px solid rgba(255, 255, 255, 0.22);
+  border-radius: 8px;
+  background: #05070d;
+  color: var(--text);
+  font-size: 1.18rem;
+  font-weight: 800;
+  line-height: 1;
+  text-decoration: none;
+  box-shadow: 0 14px 30px rgba(0, 0, 0, 0.28);
+}
+
+.app-store-button small {
+  display: block;
+  margin-bottom: 3px;
+  color: #d7e3ee;
+  font-size: 0.68rem;
+  font-weight: 700;
+}
+
+.app-store-icon {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 30px;
+  height: 30px;
+  color: #05070d;
+  border-radius: 7px;
+  background: linear-gradient(135deg, #f5fbff, #b9c9dd);
+  font-size: 1.15rem;
+  font-weight: 900;
+}
+
 .hero-art {
   position: relative;
 }
