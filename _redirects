@@ -1,2 +1,4 @@
-/privacy /privacy.html 200
-/* /index.html 200
+# No custom redirects needed.
+# Cloudflare Pages serves /privacy.html at the clean URL /privacy automatically
+# and 301s the .html form to the clean form. Adding rules here previously caused
+# a redirect loop.
